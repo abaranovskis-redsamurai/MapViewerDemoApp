@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+        xmlns:dvt="http://xmlns.oracle.com/dss/adf/faces">
+    <af:document title="main.jsf" id="d1">
+        <af:form id="f1">
+            <af:panelBox text="Map" id="pb1" showDisclosure="false">
+                <f:facet name="toolbar"/>
+                <dvt:map startingY="49.246292" startingX="-123.116226" mapZoom="12" mapServerConfigId="mapConfig1"
+                         baseMapName="ELOCATION_MERCATOR.WORLD_MAP" inlineStyle="width:1200px; height:575px;" id="m1"
+                         srid="8307">
+                    <f:facet name="popup"/>
+                    <f:facet name="rtPopup"/>
+                </dvt:map>
+            </af:panelBox>
+        </af:form>
+    </af:document>
+</f:view>

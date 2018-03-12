@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adf-settings xmlns="http://xmlns.oracle.com/adf/settings">
+  <dvt-faces-settings xmlns="http://xmlns.oracle.com/dss/adf/faces/settings">
+    <geomap id="mapConfig1" mapViewerUrl="MapViewerURL" geocoderUrl="MapViewerGeoCoderURL"/>
+  </dvt-faces-settings>
+</adf-settings>
